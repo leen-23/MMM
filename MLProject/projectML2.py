@@ -10,7 +10,7 @@ from nltk.corpus import stopwords
 from nltk.stem import ISRIStemmer
 
 # Load the CSV file into a DataFrame
-data_file_path = "/Users/leenharbi/Desktop/MLdataset.csv"
+data_file_path = "MLProject/MLdataset.csv"
 data = pd.read_csv(data_file_path)
 
 # Arabic stopwords
