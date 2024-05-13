@@ -4,8 +4,8 @@ from sklearn.svm import SVC
 import joblib
 
 # تحميل النموذج المدرب والمتجه
-model = joblib.load("MMM/MLProject/model.pkl")
-vectorizer = joblib.load("MMM/MLProject/tfidf_vectorizer.pkl")
+model = joblib.load("MLProject/model.pkl")
+vectorizer = joblib.load("MLProject/tfidf_vectorizer.pkl")
 
 # تحديد العناصر الواجهة
 st.title("Classifying sentiments ")
