@@ -5,7 +5,7 @@ import joblib
 
 # تحميل النموذج المدرب والمتجه
 model = joblib.load("/MLProject/model.pkl")
-vectorizer = joblib.load("/Users/leenharbi/Desktop/PML/MLProject/tfidf_vectorizer.pkl")
+vectorizer = joblib.load("/MLProject/tfidf_vectorizer.pkl")
 
 # تحديد العناصر الواجهة
 st.title("Classifying sentiments ")
