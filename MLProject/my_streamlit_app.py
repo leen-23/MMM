@@ -4,7 +4,7 @@ from sklearn.svm import SVC
 import joblib
 
 # تحميل النموذج المدرب والمتجه
-model = joblib.load("/Users/leenharbi/Desktop/PML/MLProject/model.pkl")
+model = joblib.load("/MLProject/model.pkl")
 vectorizer = joblib.load("/Users/leenharbi/Desktop/PML/MLProject/tfidf_vectorizer.pkl")
 
 # تحديد العناصر الواجهة
